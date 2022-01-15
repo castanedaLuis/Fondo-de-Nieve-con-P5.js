@@ -1,0 +1,18 @@
+ /* 
+        Lo usaremos provicionalmente para la posición 
+        del canvas y la imagen de fondo 
+        */
+        body{
+            background-image: url(../nieve.jpg) ;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        canvas{
+            position: absolute;
+            top:0;
+            left:0;
+        }
